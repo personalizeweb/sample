@@ -524,7 +524,6 @@ a {
 
 
 /*footer*/
-/*footer*/
 
 footer {
   display: flex;
@@ -536,4 +535,18 @@ footer {
 
 footer p{
   font-size: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  footer {
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+    background-color: #464646;
+    color: #fff;
+  }
+  
+  footer p{
+    font-size: 15px;
+  }
 }
