@@ -525,28 +525,27 @@ a {
 
 /*footer*/
 
+
 footer {
   display: flex;
   justify-content: center;
-  padding: 5px;
-  background-color: #464646;
+  padding: 7x;
+  background-color: #282e3b;;
   color: #fff;
+  margin: 130px 0 0 0;
 }
 
 footer p{
-  font-size: 15px;
+  color: white;
+  text-align: center;
 }
 
-@media only screen and (max-width: 768px) {
+@media screen and (max-width:768px)   {
   footer {
     display: flex;
     justify-content: center;
     padding: 7px;
-    background-color: #464646;
+    background-color: #282e3b;;
     color: #fff;
-  }
-  
-  footer p{
-    font-size: 15px;
   }
 }
